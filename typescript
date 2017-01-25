@@ -1,0 +1,358 @@
+Script started on Tue 13 Sep 2016 10:20:55 PM CDT
+hjdarnel@turing:~/homework$ javac database.java 
+hjdarnel@turing:~/homework$ java database
+
+Welcome!
+Which would you like to do?
+1) Open existing database
+2) Create new database
+Please respond 1 or 2, or quit to exit.
+1
+Open existing DB :: input
+
+Now what would you like to do?
+1) Display a record by primary key
+2) Update a record previously displayed by key (choice 1)
+3) Create human readable report (in this directory)
+4) Add a new record
+5) Delete a record
+9) Close database.
+Please respond 1 - 5, 9, or quit to exit.
+1
+Enter the primary key to search for: 1390
+
+Found key 01390:
+Id    Experience Married Wage         Industry                        
+01390 9          yes     2.216985824  Public_Administration           
+
+Now what would you like to do?
+1) Display a record by primary key
+2) Update a record previously displayed by key (Key 01390)
+3) Create human readable report (in this directory)
+4) Add a new record
+5) Delete a record
+9) Close database.
+Please respond 1 - 5, 9, or quit to exit.
+2
+Which field would you like to update?
+Options: experience / married / wage / industry / cancel (exit)
+experience
+Enter new years of 'experience' : 
+8
+record =
+01390 8          yes     2.216985824  Public_Administration           
+
+Now what would you like to do?
+1) Display a record by primary key
+2) Update a record previously displayed by key (Key 01390)
+3) Create human readable report (in this directory)
+4) Add a new record
+5) Delete a record
+9) Close database.
+Please respond 1 - 5, 9, or quit to exit.
+4
+===========
+New record:
+Fields: id (5 char int), experience (10 char int), married (yes/no), wage (double), industry (32 char string) 
+
+Id (5 char int) : 
+1390
+ID taken, please enter unique ID
+Id (5 char int) : 
+1387
+ID taken, please enter unique ID
+Id (5 char int) : 
+9948
+Experience (10 char int) : 
+12
+Married (yes/no) : 
+yes
+Wage (12 char double) : 
+1.2
+Industry (32 char string) : 
+Professor
+
+Now what would you like to do?
+1) Display a record by primary key
+2) Update a record previously displayed by key (Key 04360)
+3) Create human readable report (in this directory)
+4) Add a new record
+5) Delete a record
+9) Close database.
+Please respond 1 - 5, 9, or quit to exit.
+4
+===========
+New record:
+Fields: id (5 char int), experience (10 char int), married (yes/no), wage (double), industry (32 char string) 
+
+Id (5 char int) : 
+-1
+Invalid ID, please enter whole number (5 chars max)
+Id (5 char int) : 
+999100
+Invalid ID, please enter whole number (5 chars max)
+Id (5 char int) : 
+84800
+Experience (10 char int) : 
+15
+Married (yes/no) : 
+no
+Wage (12 char double) : 
+-1
+Invalid wage, please enter a number with decimal (12 char max)
+Wage (12 char double) : 
+abc
+Invalid wage, please enter a number with decimal (12 char max)
+Wage (12 char double) : 
+1.5
+Industry (32 char string) : 
+CS Professor
+
+Now what would you like to do?
+1) Display a record by primary key
+2) Update a record previously displayed by key (Key 04360)
+3) Create human readable report (in this directory)
+4) Add a new record
+5) Delete a record
+9) Close database.
+Please respond 1 - 5, 9, or quit to exit.
+4
+===========
+New record:
+Fields: id (5 char int), experience (10 char int), married (yes/no), wage (double), industry (32 char string) 
+
+Id (5 char int) : 
+7360
+Experience (10 char int) : 
+23
+Married (yes/no) : 
+no  n
+Wage (12 char double) : 
+1.8
+Industry (32 char string) : 
+Researcher
+
+Now what would you like to do?
+1) Display a record by primary key
+2) Update a record previously displayed by key (Key 04360)
+3) Create human readable report (in this directory)
+4) Add a new record
+5) Delete a record
+9) Close database.
+Please respond 1 - 5, 9, or quit to exit.
+3
+Report written to ./input_report.txt.
+
+Now what would you like to do?
+1) Display a record by primary key
+2) Update a record previously displayed by key (Key 04360)
+3) Create human readable report (in this directory)
+4) Add a new record
+5) Delete a record
+9) Close database.
+Please respond 1 - 5, 9, or quit to exit.
+5
+What is the ID of the record you'd like to delete?
+00001
+deleteId = 00001
+deleteRow = -1
+
+Now what would you like to do?
+1) Display a record by primary key
+2) Update a record previously displayed by key (Key 00001)
+3) Create human readable report (in this directory)
+4) Add a new record
+5) Delete a record
+9) Close database.
+Please respond 1 - 5, 9, or quit to exit.
+5
+What is the ID of the record you'd like to delete?
+00002
+deleteId = 00002
+deleteRow = 2
+Do you want to delete this record? (yes/no) 
+00002 2          no      1.853059995  Personal_Service                
+yes
+Deleted record.
+
+Now what would you like to do?
+1) Display a record by primary key
+2) Update a record previously displayed by key (Key 00002)
+3) Create human readable report (in this directory)
+4) Add a new record
+5) Delete a record
+9) Close database.
+Please respond 1 - 5, 9, or quit to exit.
+9
+
+Welcome!
+Which would you like to do?
+1) Open existing database
+2) Create new database
+Please respond 1 or 2, or quit to exit.
+2
+What do you want the database file to be called? 16 chars max :: tester
+
+Now what would you like to do?
+1) Display a record by primary key
+2) Update a record previously displayed by key (Key 00002)
+3) Create human readable report (in this directory)
+4) Add a new record
+5) Delete a record
+9) Close database.
+Please respond 1 - 5, 9, or quit to exit.
+3
+Report written to ./tester_report.txt.
+
+Now what would you like to do?
+1) Display a record by primary key
+2) Update a record previously displayed by key (Key 00002)
+3) Create human readable report (in this directory)
+4) Add a new record
+5) Delete a record
+9) Close database.
+Please respond 1 - 5, 9, or quit to exit.
+4
+===========
+New record:
+Fields: id (5 char int), experience (10 char int), married (yes/no), wage (double), industry (32 char string) 
+
+Id (5 char int) : 
+1
+Experience (10 char int) : 
+1
+Married (yes/no) : 
+yes
+Wage (12 char double) : 
+8.4
+Industry (32 char string) : 
+CS Professor
+
+Now what would you like to do?
+1) Display a record by primary key
+2) Update a record previously displayed by key (choice 1)
+3) Create human readable report (in this directory)
+4) Add a new record
+5) Delete a record
+9) Close database.
+Please respond 1 - 5, 9, or quit to exit.
+4
+===========
+New record:
+Fields: id (5 char int), experience (10 char int), married (yes/no), wage (double), industry (32 char string) 
+
+Id (5 char int) : 
+3
+Experience (10 char int) : 
+5
+Married (yes/no) : 
+n
+Wage (12 char double) : 
+1.2
+Industry (32 char string) : 
+Schoolteacher
+
+Now what would you like to do?
+1) Display a record by primary key
+2) Update a record previously displayed by key (choice 1)
+3) Create human readable report (in this directory)
+4) Add a new record
+5) Delete a record
+9) Close database.
+Please respond 1 - 5, 9, or quit to exit.
+4
+===========
+New record:
+Fields: id (5 char int), experience (10 char int), married (yes/no), wage (double), industry (32 char string) 
+
+Id (5 char int) : 
+400
+Experience (10 char int) : 
+abc
+Invalid experience, please enter whole number (10 chars max)
+Experience (10 char int) : 
+-1
+Invalid experience, please enter whole number (10 chars max)
+Experience (10 char int) : 
+78
+Married (yes/no) : 
+y
+Wage (12 char double) : 
+2.48
+Industry (32 char string) : 
+Freeclimbinb   g in retirement
+
+Now what would you like to do?
+1) Display a record by primary key
+2) Update a record previously displayed by key (choice 1)
+3) Create human readable report (in this directory)
+4) Add a new record
+5) Delete a record
+9) Close database.
+Please respond 1 - 5, 9, or quit to exit.
+3
+Report written to ./tester_report.txt.
+
+Now what would you like to do?
+1) Display a record by primary key
+2) Update a record previously displayed by key (choice 1)
+3) Create human readable report (in this directory)
+4) Add a new record
+5) Delete a record
+9) Close database.
+Please respond 1 - 5, 9, or quit to exit.
+q 9
+
+Welcome!
+Which would you like to do?
+1) Open existing database
+2) Create new database
+Please respond 1 or 2, or quit to exit.
+1
+Open existing DB :: input
+
+Now what would you like to do?
+1) Display a record by primary key
+2) Update a record previously displayed by key (choice 1)
+3) Create human readable report (in this directory)
+4) Add a new record
+5) Delete a record
+9) Close database.
+Please respond 1 - 5, 9, or quit to exit.
+1
+Enter the primary key to search for: 1390
+
+Found key 01390:
+Id    Experience Married Wage         Industry                        
+01390 8          yes     2.216985824  Public_Administration           
+
+Now what would you like to do?
+1) Display a record by primary key
+2) Update a record previously displayed by key (Key 01390)
+3) Create human readable report (in this directory)
+4) Add a new record
+5) Delete a record
+9) Close database.
+Please respond 1 - 5, 9, or quit to exit.
+2
+Which field would you like to update?
+Options: experience / married / wage / industry / cancel (exit)
+married
+Enter new 'married' (no/yes) : 
+no
+record =
+01390 8          no      2.216985824  Public_Administration           
+
+Now what would you like to do?
+1) Display a record by primary key
+2) Update a record previously displayed by key (Key 01390)
+3) Create human readable report (in this directory)
+4) Add a new record
+5) Delete a record
+9) Close database.
+Please respond 1 - 5, 9, or quit to exit.
+q
+hjdarnel@turing:~/homework$ exit
+exit
+
+Script done on Tue 13 Sep 2016 10:30:21 PM CDT
